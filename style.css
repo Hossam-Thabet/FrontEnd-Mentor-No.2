@@ -1,0 +1,82 @@
+:root {
+  --clr-slate-300: hsl(212, 45%, 89%);
+  --clr-slate-500: hsl(216, 15%, 48%);
+  --clr-slate-900: hsl(218, 44%, 22%);
+}
+
+/* reset */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: var(--clr-slate-300);
+  display: flex;
+  font-size: 15px;
+  font-family: outfit;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  border-radius: .5rem;
+  background-color: white;
+}
+
+.qr-code {
+  
+  width: 375px;
+  /* max-width: 375px; */
+  display: grid;
+  place-content: center;
+  place-items: center;
+  padding: 1rem;
+}
+
+.qr-code__img {
+  border-radius: .5rem;
+}
+
+.qr-code__title , p {
+  text-align: center;
+  width: 280px;
+}
