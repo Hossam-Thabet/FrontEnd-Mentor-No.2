@@ -60,14 +60,7 @@ main {
   border-radius: 20px;
   background-color: white;
   width: 320px;
-  box-shadow: 0 15px 20px rgb(0 0 0 / 10%);
-}
-
-@media (min-width:1440px) {
-  main {
-    border-radius: 14.13px;
-    width: 226px;
-  }
+  box-shadow: 0 25px 25px rgb(0 0 0 / 4.7%);
 }
 
 .qr-code {
@@ -76,35 +69,16 @@ main {
   padding: 16px 16px 40px 16px;
 }
 
-@media (min-width:1440px) {
-  .qr-code {
-    padding: 11.3px 11.3px 28.25px 11.3px;
-  }
-}
-
 .qr-code__img {
   border-radius: 10px;
   width: 288px;
   height: 288px;
 }
 
-@media (min-width:1440px) {
-  .qr-code__img {
-    border-radius: 7px;
-    width: 203.4px;
-    height: 203.4px;
-  }
-}
 .qr-code__title , .qr-code p {
   text-align: center;
   margin: auto;
   width: 288px;
-}
-
-@media (min-width:1440px) {
-  .qr-code__title , .qr-code p {
-    width: 203.4px;
-  }
 }
 
 .qr-code__title {
@@ -118,27 +92,10 @@ main {
   max-width: 256px;
 }
 
-@media (min-width:1440px) {
-  .qr-code__title {
-    padding-top: 17px;
-    padding-bottom: 11.3px;
-    font-size: 15.54px;
-    max-width: 180.8px;
-  }
-}
-
 .qr-code p {
 font-size: 15px;
 color: var(--clr-slate-500);
 line-height: 1.4;
 letter-spacing: 0.2px;
 max-width: 256px;
-}
-
-@media (min-width:1440px) {
-  .qr-code p {
-    font-size: 10.59px;
-    letter-spacing: 0.14px;
-    max-width: 180.8px;
-  }
 }
