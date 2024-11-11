@@ -54,6 +54,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 
 main {
@@ -99,3 +100,13 @@ line-height: 1.4;
 letter-spacing: 0.2px;
 max-width: 256px;
 }
+
+.attribution { 
+  position: absolute;
+  font-size: 11px; 
+  text-align: center;
+  bottom: 30px;
+ }
+
+.attribution a {
+  color: hsl(228, 45%, 44%); }
